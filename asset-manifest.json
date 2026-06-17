@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https;//aurelsan1989.github.io/cartel/static/css/main.92b7d66a.css",
-    "main.js": "/https;//aurelsan1989.github.io/cartel/static/js/main.85cc9901.js",
-    "static/js/453.9b46c122.chunk.js": "/https;//aurelsan1989.github.io/cartel/static/js/453.9b46c122.chunk.js",
-    "index.html": "/https;//aurelsan1989.github.io/cartel/index.html",
-    "main.92b7d66a.css.map": "/https;//aurelsan1989.github.io/cartel/static/css/main.92b7d66a.css.map",
-    "main.85cc9901.js.map": "/https;//aurelsan1989.github.io/cartel/static/js/main.85cc9901.js.map",
-    "453.9b46c122.chunk.js.map": "/https;//aurelsan1989.github.io/cartel/static/js/453.9b46c122.chunk.js.map"
+    "main.css": "/cartel/static/css/main.92b7d66a.css",
+    "main.js": "/cartel/static/js/main.f840de32.js",
+    "static/js/453.9b46c122.chunk.js": "/cartel/static/js/453.9b46c122.chunk.js",
+    "index.html": "/cartel/index.html",
+    "main.92b7d66a.css.map": "/cartel/static/css/main.92b7d66a.css.map",
+    "main.f840de32.js.map": "/cartel/static/js/main.f840de32.js.map",
+    "453.9b46c122.chunk.js.map": "/cartel/static/js/453.9b46c122.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92b7d66a.css",
-    "static/js/main.85cc9901.js"
+    "static/js/main.f840de32.js"
   ]
 }
