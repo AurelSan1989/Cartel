@@ -1,0 +1,61 @@
+.dashboard {
+    max-width: 1000px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: left;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    color: #4caf50;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.valueGlow {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.valueGreen {
+    color: #85bb65;
+    font-weight: bold;
+}
+
+.valueGold {
+    color: #ffd700;
+    font-weight: bold;
+}

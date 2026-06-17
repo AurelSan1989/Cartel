@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;
+  gap: 15px;
+  padding: 15px 20px;
+  background-color: #111;
+}
+
+.navButton {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: #2a3444;
+  color: #fff;
+  border: 1px solid #3b4252;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navButton:hover {
+  background-color: #3b4252;
+  transform: translateY(-1px)
+}
+
+.active {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+}

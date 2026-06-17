@@ -1,0 +1,84 @@
+.container {
+    margin-top: 20px;
+    background-color: #1e2530;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #3b4252;
+}
+
+.description {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #2a3444;
+    padding: 15px;
+    border-radius: 6px;
+    width: 210px;
+}
+
+.cardCurrent {
+    border: 2px solid #4caf50 !important;
+}
+
+.cardInferior {
+    opacity: 0.4;
+}
+
+.vehiculeName {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.vehiculePrice {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.priceAvailable {
+    color: #4caf50;
+}
+
+.priceTooExpensive {
+    color: #ff4d4d;
+}
+
+.vehiculeStorageCapacity {
+    margin: 2px 0;
+    font-size: 13px;
+    color: #ebcb4b;
+    font-weight: bold;
+}
+
+.buyButton {
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btnCurrent {
+    background-color: #4caf50;
+    color: white;
+    cursor: default;
+}
+
+.btnTooExpensive {
+    background-color: #4c566a;
+    color: white;
+}
+
+.btnAvailable {
+    background-color: #d08770;
+}

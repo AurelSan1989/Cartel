@@ -1,0 +1,84 @@
+.container {
+    margin-top: 20px;
+    background-color: #2b2230;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #4c3a56;
+}
+
+.description {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #3c2e44;
+    padding: 15px;
+    border-radius: 6px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.luxuryName {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.luxuryPrice {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.luxuryPrestigeLevel {
+    margin: 2px 0;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.buyButton {
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cardOwned {
+    border: 2px solid #bb86fc !important;
+    opacity: 0.6;
+}
+
+.priceOwned {
+    color: #bb86fc; /* Couleur par défaut */
+}
+
+.priceTooExpensive {
+    color: #ff4d4d;
+}
+
+.btnOwned {
+    background-color: #bb86fc !important;
+    cursor: default !important;
+}
+
+.btnLocked {
+    background-color: #4c566a;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.btnAvailable {
+    background-color: #4c566a; /* Ou ta couleur par défaut */
+    cursor: pointer;
+}

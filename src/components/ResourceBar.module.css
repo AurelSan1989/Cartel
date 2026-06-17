@@ -1,0 +1,31 @@
+.resourceBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #333;
+  color: #fff;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.statItem {
+  font-weight: bold;
+}
+
+.statValue {
+  color: #4caf50; /* Vert pour l'argent */
+}
+
+.resetButton {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
