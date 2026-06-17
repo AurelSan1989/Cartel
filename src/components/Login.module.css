@@ -1,0 +1,110 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 20px;
+}
+
+.loginCard {
+    background-color: #1e2530;
+    border: 1px solid #3b4252;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.loginCard h2 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputGroup label {
+    color: #ccc;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.inputGroup input {
+    background-color: #2a3444;
+    border: 1px solid #3b4252;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.inputGroup input:focus {
+    border-color: #d08770;
+}
+
+.submitBtn {
+    background-color: #d08770;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.submitBtn:hover {
+    background-color: #be745c;
+}
+
+.errorAlert {
+    background-color: rgba(255, 77, 77, 0.15);
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.toggleMode {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.toggleMode span {
+    color: #d08770;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.toggleMode span:hover {
+    color: #be745c;
+}

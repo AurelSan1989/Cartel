@@ -7,7 +7,7 @@ export default function Footer({ currentEvent }) {
     <footer className={styles.footer}>
       {/* Zone du haut : L'alerte flash injectée */}
       <div className={styles.alertSection}>
-        <GameAlert currentEvent={currentEvent} />
+        <GameAlert />
       </div>
 
       {/* Zone du bas : Informations et Règles du jeu */}
