@@ -82,3 +82,37 @@
     background-color: #4c566a; /* Ou ta couleur par défaut */
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  
+  /* 1. Ajustement de l'en-tête de la boutique */
+  .container h2 {
+    font-size: 1.3rem;       
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 12px;         
+    line-height: 1.4;
+  }
+
+  /* 2. Resynchronisation de la grille sur mobile */
+  .grid {
+    gap: 15px;               
+    margin-top: 15px;
+  }
+
+  /* 3. La carte occupe 100% de la largeur de l'écran */
+  .card {
+    width: 100%;             
+    box-sizing: border-box;  
+    padding: 12px;           
+  }
+
+  /* 4. Optimisation de la zone de clic du bouton pour le pouce */
+  .buyButton {
+    padding: 12px 8px;       
+    margin-top: 12px;
+  }
+}

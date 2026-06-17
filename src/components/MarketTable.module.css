@@ -86,3 +86,60 @@
     background-color: #2e6930; 
     color: #fff; 
 }
+
+@media (max-width: 480px) {
+
+  .tableHeader {
+    display: none !important;
+  }
+
+  .table, .table tbody {
+    display: block;
+    width: 100%;
+  }
+  .tableRow {
+    display: block;
+    background-color: #2d2d2d;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+  }
+  .tableRow td {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #383838;
+  }
+  .tableRow td:nth-child(1) {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4caf50;
+    border-bottom: 2px solid #444;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    display: block;
+    text-align: center;
+  }
+  .tableRow td:nth-child(2)::before { content: "💰 Prix Actuel :"; font-weight: bold; color: #888; }
+  .tableRow td:nth-child(3)::before { content: "📈 Tendance :"; font-weight: bold; color: #888; }
+  .tableRow td:nth-child(4)::before { content: "📦 En Stock :"; font-weight: bold; color: #888; }
+  .tableRow td:nth-child(5)::before { content: "💳 PAM :"; font-weight: bold; color: #888; }
+  .tableRow td:nth-child(6)::before { content: "💸 Bénéfice Latent :"; font-weight: bold; color: #888; }
+  .tableRow td:nth-child(7)::before { content: "⭐ Prestige Requis :"; font-weight: bold; color: #888; }
+  .tableRow td:last-child  {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 12px;
+    border-bottom: none;
+  }
+  .actionButton, .sellButton {
+    width: 100%;
+    margin: 0 !important;
+    padding: 10px !important;
+    font-size: 13px !important;
+    text-align: center;
+  }
+}

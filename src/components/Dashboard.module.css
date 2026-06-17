@@ -59,3 +59,13 @@
     color: #ffd700;
     font-weight: bold;
 }
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 22px;
+        margin: 15px auto;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+}
